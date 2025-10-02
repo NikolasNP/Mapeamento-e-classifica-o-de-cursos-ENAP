@@ -25,6 +25,7 @@ Este projeto tem como objetivo **extrair informações de cursos da ENAP** (Esco
 
 ## ⚡ Requisitos
 
+```py
 - Python 3.10+
 - Bibliotecas:
 
@@ -35,12 +36,14 @@ unidecode
 nltk
 torch
 sentence-transformers
+```
 
 - Recursos NLTK necessários:
 
 ```python
 nltk.download('stopwords')
 nltk.download('wordnet')
+```
 
 ## 📂 Estrutura de arquivos
 
@@ -56,8 +59,10 @@ nltk.download('wordnet')
 1. Clone o repositório ou abra no Google Colab.
 
 2. Instale as dependências:
-
+   
+```py
 pip install pandas requests beautifulsoup4 unidecode nltk torch sentence-transformers
+```
 
 3. Execute o notebook main_notebook.ipynb:
 
@@ -71,7 +76,9 @@ pip install pandas requests beautifulsoup4 unidecode nltk torch sentence-transfo
 
 4. O arquivo final correlacao_CursoXCompetencias.csv será gerado, contendo:
 
+```py
 ID, Curso, Descricao, Competencias provaveis
+```
 
 ## 📝 Observações
 
