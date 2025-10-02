@@ -47,12 +47,14 @@ nltk.download('wordnet')
 
 ## 📂 Estrutura de arquivos
 
+```py
 .
 ├── cursos_enap.csv           # CSV com informações básicas dos cursos
 ├── cursos_detalhado.csv      # CSV com informações detalhadas dos cursos
 ├── correlacao_CursoXCompetencias.csv  # Resultado final com competências prováveis
 ├── enap_mapping.py           # Codigo do projeto
 └── README.md
+```
 
 ## 🚀 Como usar
 
